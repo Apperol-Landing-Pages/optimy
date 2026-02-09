@@ -31,7 +31,7 @@ function initSlider() {
     if (!phoneSlider) {
       phoneSlider = new Swiper('.phone-slider', {
         centeredSlides: true,
-        slidesPerView: 1.2,
+        slidesPerView: 1.0,
         spaceBetween: 24,
 
         pagination: {

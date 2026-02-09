@@ -246,6 +246,7 @@ margin-top: 30px;
 width: 100vw;
   margin-left: 50%;
   transform: translateX(-50%);
+    gap: 50px;
 }
 
 .phone-slider .swiper-slide {
@@ -272,6 +273,11 @@ width: 100vw;
 
 .phone-slider .swiper-pagination-bullet-active {
   opacity: 1;
+}
+
+.swiper-wrapper{
+    gap: 50px;
+
 }
 
 @media (min-width: 768px) {
